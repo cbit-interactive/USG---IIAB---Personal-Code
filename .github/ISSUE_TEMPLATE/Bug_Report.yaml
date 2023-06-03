@@ -1,0 +1,68 @@
+---
+name: "USG - Bug Report"
+description: Report a bug on my Untitled Strategy Game
+body:
+- type: markdown
+  attributes:
+    value: |
+      Please search for existing issues
+
+- type: input
+  attributes:
+    label: OS Version
+    description: |
+      Please input the current OS version the game is running. If you don't know, use your CMD to find the current version.
+    placeholder: "Ubuntu 1.0.0"
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: WSL Version
+    description: |
+      What version of the game are you running (Look in your version.txt folder or type gamever in the commander)?
+    placeholder: "0.0.0.0"
+  validations:
+    required: true
+
+- type: checkboxes
+  attributes:
+    label: Are you using a beta/alpha or the full release?
+    description: |
+      Are you running the beta or alpha versions or the full release
+    options:
+      - label: "Beta/Alpha"
+      - label: "Full Release"
+
+- type: textarea
+  attributes:
+    label: Reproduction Steps
+    description: Please list out the steps to reproduce your bug.  
+    placeholder: Your steps go here.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: What were you expecting to see? Include any relevant examples or documentation links.
+    placeholder: If you want to include screenshots, paste them into the text area or follow up with a separate comment. 
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Actual Behavior
+    description: What happened instead?
+    placeholder: Input what actually happened. Include screenshots as well
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Diagnostic Logs
+    description: | 
+      Please provide additional diagnostics if needed.
+    placeholder: Your links to logs or other information go here.
+  validations:
+    required: false
