@@ -1,0 +1,42 @@
+---
+name: USG Feature suggestions!
+description: Suggest new features and I will *try* to add them :)
+body: 
+- type: markdown
+  attributes:
+    value: |
+      Please search for existing issues
+
+- type: input
+  attributes:
+    label: Email
+    description: |
+      Enter a name to put on to credits
+    placeholder: John Doe
+    validations: 
+      required: false
+
+- type: input
+  attributes:
+    label: Email
+    description: |
+      Enter an email to contact you
+    placeholder: johndoe@protonmail.com
+    validations: 
+      required: false
+
+- type: input
+  attributes:
+    label: Suggestion title
+    description: Please put in your suggestion title
+    placeholder: Add a monster to fight
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Suggestion details
+    description: Add details to your suggestion. Add everything
+    placeholder: The monster has 100 health and shoots fire at ajacent tiles. Does 600 damage. AHH!
+  validations:
+    required: true

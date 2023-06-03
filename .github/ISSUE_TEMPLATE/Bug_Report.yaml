@@ -62,7 +62,7 @@ body:
   attributes:
     label: Diagnostic Logs
     description: | 
-      Please provide additional diagnostics if needed. Look in any logs folders or the like
+      Please provide additional diagnostics if needed. Look in any logs folders or the like. LOOK EVERYWHERE
     placeholder: Your links to logs or other information go here.
   validations:
     required: false
