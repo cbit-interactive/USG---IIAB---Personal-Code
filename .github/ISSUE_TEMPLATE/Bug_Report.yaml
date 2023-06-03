@@ -18,7 +18,7 @@ body:
 
 - type: input
   attributes:
-    label: WSL Version
+    label: USG Version
     description: |
       What version of the game are you running (Look in your version.txt folder or type gamever in the commander)?
     placeholder: "0.0.0.0"
@@ -62,7 +62,7 @@ body:
   attributes:
     label: Diagnostic Logs
     description: | 
-      Please provide additional diagnostics if needed.
+      Please provide additional diagnostics if needed. Look in any logs folders or the like
     placeholder: Your links to logs or other information go here.
   validations:
     required: false
