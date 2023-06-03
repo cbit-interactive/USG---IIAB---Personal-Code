@@ -9,7 +9,7 @@ body:
 
 - type: input
   attributes:
-    label: Email
+    label: Name
     description: |
       Enter a name to put on to credits
     placeholder: John Doe
