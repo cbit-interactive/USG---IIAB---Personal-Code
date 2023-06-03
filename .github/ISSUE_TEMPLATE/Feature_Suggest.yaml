@@ -13,8 +13,8 @@ body:
     description: |
       Enter a name to put on to credits
     placeholder: John Doe
-    validations: 
-      required: false
+  validations: 
+    required: false
 
 - type: input
   attributes:
@@ -22,8 +22,8 @@ body:
     description: |
       Enter an email to contact you
     placeholder: johndoe@protonmail.com
-    validations: 
-      required: false
+  validations: 
+    required: false
 
 - type: input
   attributes:
